@@ -14,7 +14,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Arsenal:AddButton({
+Tab:AddButton({
 	Name = "Kill all",
 	Callback = function()
       		game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
